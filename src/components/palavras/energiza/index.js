@@ -1,8 +1,11 @@
 import React from 'react'
 import {Container} from './styles'
-const width="50%";
+const wd =699;
+const wh =252;
+const width="25%";
+const height ="25%";
     const className ="";
-    const viewBox ="0 0 710 260 ";
+    const viewBox ="0 0"+" "+ wd +" "+ wh ;
 
     export default function Bpower(){
 
@@ -10,7 +13,7 @@ return(
    <>
    <Container />
     <div>
-    <svg width={width} height={width} 
+    <svg width={width} height={height} 
     shape-rendering="geometricPrecision" 
     text-rendering="geometricPrecision" 
     image-rendering="optimizeQuality" 
@@ -29,6 +32,9 @@ return(
 <path id="5" fill="#FEFEFE" fill-rule="nonzero" d="M531.34 142.32c0.53,-2 0.74,-4.2 0.74,-6.51 0,-7.87 -2.52,-14.49 -7.67,-19.73 -5.14,-5.25 -11.54,-7.88 -19.42,-7.88 -8.08,0 -14.8,2.63 -20.04,7.98 -5.25,5.36 -7.88,11.97 -7.88,19.84 0,7.98 2.63,14.59 7.98,19.84 5.36,5.14 12.49,7.77 21.41,7.77 9.87,0 17.43,-3.26 22.57,-9.77l-12.59 -8.81c-2.63,2.41 -5.78,3.67 -9.56,3.67 -6.08,0 -9.97,-2.1 -11.75,-6.4l36.21 0zm-36.42 -12.07c1.47,-4.94 4.93,-7.35 10.29,-7.35 5.14,0 8.5,2.41 9.86,7.35l-20.15 0z"/>
 </g>
 </svg>
+</div>
+<div>
+    <svg></svg>
 </div>
 <Container />
 </>

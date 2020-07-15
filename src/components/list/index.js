@@ -6,7 +6,8 @@ import BitBLed from '../bits/bled';
 import Wenergiza from '../bits/palavras/energiza';
 import Wacende from '../bits/palavras/acende';
 import Wpressiona from '../bits/palavras/pressiona';*/
-import Wpower from '../bits/power';
+import {Wpower} from '../bits/power';
+import Bpower from '../palavras/energiza';
 
 export default function List() {
   return(
@@ -17,7 +18,7 @@ export default function List() {
     <ul>
       
       <Wpower />
-      
+      <Bpower />
    </ul>
    </header>
 
