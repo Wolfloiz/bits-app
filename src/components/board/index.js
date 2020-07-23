@@ -1,13 +1,14 @@
 import React from 'react';
-import List from '../list';
-import { Container } from './styles';
+import Selectword from '../selectword';
+import Area from '../area';
+import  {Container}  from './styles';
 
 export default function Board() {
   return (
     <Container>
 
-      <List />
-      <List />
+      <Selectword />
+      <Area/>
 
     </Container>
   );

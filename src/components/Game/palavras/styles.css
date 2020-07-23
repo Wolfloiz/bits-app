@@ -1,0 +1,23 @@
+.BPower{
+--Roxo: #343750;
+--Salmao: #ED755E;
+--Amarelo: #F7d47E;
+--Verde: #10A581;
+--Azul: #2D80B9;
+--preto: #373435;
+
+}
+
+
+.EN{
+--HL: var(--preto);
+stroke: var(--HL);
+
+}
+
+.ENLed{
+    --HL: var(--preto);
+    stroke: var(--HL);
+    
+    }
+    

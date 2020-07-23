@@ -1,14 +1,11 @@
-import React from 'react';
-
-import { Container } from './styles';
-
-function Header() {
-  return (
-      <Container>
-          <h1>Jogo dos Bits</h1>
-      </Container>
-
-  );
+import React from 'react'
+import { Container } from './style'
+import logo from '../images/logo.png'
+export default function index() {
+    return (
+         <Container>
+             <h1>Jogo dos Bits</h1>
+         </Container>
+    )
 }
-
-export default Header;
+// <img>src="../src/images/logo.png"</img>

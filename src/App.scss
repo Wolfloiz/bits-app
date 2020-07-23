@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+$Roxo: #343750 ;
+$Salmao: #ED755E;
+$Amarelo: #F7d47E;
+$Verde: #10A581;
+$Azul: #2D80B9;
+
+html{
+    body{
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        box-sizing: border-box;
+        background: #ecf1f8 ;
+        color: #333;
+        -webkit-font-smoothing: antialiased !important;
+    }
+}
+.App{
+    height: 100%;
+}
+.App-header{
+    
+
+}
+.navdiv{
+    header{
+        justify-content: center;
+    }
+    ul{
+    display: flex;
+    height: 100%;
+    flex: 0 0 320px;
+
+    }
+}
+.Workspace{
+    header{
+        h2{
+            justify-content: center;
+        }
+        
+    }
+    ul{
+    display: flex;
+    height: 100%;
+    width: 60%;
+    flex: 0 0 320px;
+    justify-content: center;
+}}
+
+.board{
+    display: flex;
+    justify-content: space-around ;
+    height: 100%;
+}
+
+ul{
+
+list-style: none;
+}

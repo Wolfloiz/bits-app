@@ -1,16 +1,15 @@
-import React, {useRef,useEffect} from 'react';
-import {Draggable} from 'gsap'
-import GlobalStyle from './styles/styles';
-import Header from './components/header';
-import Board from './components/board';
+import React from 'react';
+import GlobalStyle from './styles/global'
+import Header from '../src/components/header'
+import Board from '../src/components/board'
+
 function App() {
   return (
     <>
     <Header />
-    <Board />  
+    <Board />
     <GlobalStyle />
-    </>
-    
+  </>
   );
 }
 
